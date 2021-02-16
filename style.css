@@ -93,3 +93,45 @@ h3 {
   margin-block-end: 25px;
 }
 
+footer {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--grayish-blue);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--very-dark-blue);
+  font-weight: 600;
+}
+
+@media (min-width:650px) {
+  .cards {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 20px;
+  }
+}
+
+@media (min-width:1042px) {
+  .header {
+    width: 550px;
+  }
+
+  .cards {
+    width: 75%;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .supervisor, .calculator {
+    grid-row: 1/3;
+    align-self: center;
+  }
+  .team-builder, .karma {
+    grid-row: 1/2;
+  }
+  .karma {
+    grid-row: 2/3;
+  }
+}
+
