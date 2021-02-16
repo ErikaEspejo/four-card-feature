@@ -35,8 +35,11 @@ body {
   box-sizing: border-box;;
   margin-block-end: 20px;
   background-color: white;
-  border-radius: 8px;
+  border-radius: 10px;
   border-block-start: 4px solid;
+  padding-inline: 30px;
+  padding-block-end: 25px;
+  box-shadow: 0 12px 20px 0px  hsl(229, 6%, 66%,0.7);
 }
 
 .supervisor {
@@ -51,3 +54,20 @@ body {
 .calculator {
   border-block-start-color: var(--blue);
 }
+
+.card img {
+  display: block;
+  float: right;
+}
+
+h3 {
+  color: var(--very-dark-blue);
+}
+
+.card p {
+  font-size: 1.3rem;
+  color: var(--grayish-blue);
+  padding-inline-end: 10px;
+  margin-block-end: 25px;
+}
+
