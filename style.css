@@ -8,3 +8,46 @@
   --very-light-gray: hsl(0, 0%, 98%) ;
   --fonts: Poppins;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--fonts);
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 1.5rem;
+  background-color: var(--very-light-gray);
+}
+
+.main {
+
+}
+
+.cards {
+  display: grid;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.card {
+  box-sizing: border-box;;
+  margin-block-end: 20px;
+  background-color: white;
+  border-radius: 8px;
+  border-block-start: 4px solid;
+}
+
+.supervisor {
+  border-block-start-color: var(--cyan);
+}
+.team-builder {
+  border-block-start-color: var(--red);
+}
+.karma {
+  border-block-start-color: var(--orange);
+}
+.calculator {
+  border-block-start-color: var(--blue);
+}
